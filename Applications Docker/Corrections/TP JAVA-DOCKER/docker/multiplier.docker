@@ -1,0 +1,4 @@
+FROM openjdk:11
+WORKDIR /home/app/
+COPY multiplier.jar .
+ENTRYPOINT ["java", "-cp", "multiplier.jar", "com.hitema.Multiplier"]

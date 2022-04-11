@@ -1,0 +1,4 @@
+FROM openjdk:11
+COPY multiplier.jar /App4/
+WORKDIR /App4/
+CMD ["java", "-jar","multiplier.jar"]
